@@ -2,10 +2,13 @@
 layout: default
 ---
 
-
 <div id="content" class="content">
+
+  {% capture my-include %}{% include summary.md %}{% endcapture %}
+{{ my-include | markdownify }}
+
     <h3>Nouveautés</h3>
-    <ul class="category recent-posts">       
+    <ul class="category recent-posts">
         {% for post in site.posts limit:5  %}
         {% unless post.draft %}
 
@@ -34,7 +37,7 @@ layout: default
     {% for category in sorted_cats %}
     {% assign sorted_posts = category[1] | reversed %}
     <h3 id="{{category[0] | uri_escape | downcase | slugify }}">{{category[0] | camelcase }}</h3>
-    <ul class="category {{category[0] | uri_escape | downcase | slugify}}">  
+    <ul class="category {{category[0] | uri_escape | downcase | slugify}}">
         {% for post in sorted_posts %}
         {% unless post.draft %}
 
