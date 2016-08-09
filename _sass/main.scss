@@ -1,7 +1,7 @@
 // header
 .main-header {
     margin-bottom: 40px;
-    padding-top: 10rem;
+    padding-top: 4rem;
     background-size: cover;
     background-position: center;
 
@@ -11,7 +11,7 @@
         .page-description,
         .nav a {
             color: $color-white;
-            text-shadow: 1px 1px 5px rgba($color-black, 0.5);
+            text-shadow: 0px 0px 5px $color-black;
         }
 
         .nav {
@@ -43,8 +43,9 @@
             min-width: 80px;
             margin: 5px;
             display: inline-block;
-            font-size:  16px;
+            font-size:  18px;
             text-transform: uppercase;
+            text-shadow: 0px 0px 5px black;
         }
     }
 
@@ -53,8 +54,9 @@
         a {
             font-family: Mrs Saint Delafield;
             font-size: 70px;
+            font-weight: normal;
             text-decoration: none;
-            text-shadow: 1px 1px 5px rgba($color-black, 0.3);
+            text-shadow: 5px 5px 5px rgba($color-black, 0.3);
         }
     }
 
@@ -67,9 +69,9 @@
     }
 }
 
-.nav:before, 
-.nav:after, 
-.site-footer:before, 
+.nav:before,
+.nav:after,
+.site-footer:before,
 .author-info:after {
     content: '';
     display: block;
