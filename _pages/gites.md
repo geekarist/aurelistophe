@@ -2,7 +2,7 @@
 layout:    page
 permalink: "/gites/"
 author:    Christophe
-weight:    5
+weight:    10
 menutitle: Gîtes
 title:     Gîtes et hôtels à proximité
 excerpt:   Une liste des gîtes et des hôtels près des lieux du mariage
