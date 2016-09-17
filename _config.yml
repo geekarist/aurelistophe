@@ -16,6 +16,7 @@ baseurl:      "" # the subpath of your site, e.g. /blog
 url:          "http://aurelistophe.fr" # the base hostname & protocol for your site. Have a look at robots.txt as well!
 permalink:    /blog/:categories/:title
 cover:        /media/img/custom/croatie/IMG_1990.JPG
+#disqus_shortname: "jekylldecent"
 
 # Build settings
 markdown: kramdown

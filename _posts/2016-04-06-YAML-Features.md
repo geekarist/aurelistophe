@@ -12,6 +12,7 @@ redirect_from:     "/YAML-Features-Redirect/"
 cover:             /assets/mountain-alternative-cover.jpg
 language:          EN
 visible: false
+comments:          false
 ---
 
 In this short post I changed the title that is displayed on the front page from `YAML Custom Features` to `YAML Features`.
@@ -83,11 +84,19 @@ weight:       5
 ---
 ```
 
-The default language of your blog is defined in the `_config.yml` file but if you like to write a post/page in another language you can use the `language` attribute. This will specify that you are using another language on this page for search engines. Please use on of the [language codes](http://www.w3schools.com/tags/ref_language_codes.asp) as value. 
+The default language of your blog is defined in the `_config.yml` file but if you like to write a post/page in another language you can use the `language` attribute. This will specify that you are using another language on this page for search engines. Please use on of the [language codes](http://www.w3schools.com/tags/ref_language_codes.asp) as value.
 
 ```bash
 ---        
 language:       en  
+---
+```
+
+You can enable [disqus](https://disqus.com/) comments in posts by adding `comments` to the page. To configure the disqus forum you need to modify the `disqus_shortname` in the `_config.yml` file.
+
+```bash
+---        
+comments:       true  
 ---
 ```
 
