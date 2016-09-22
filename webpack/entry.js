@@ -13,15 +13,40 @@ firebase.initializeApp(config);
 
 import React, { Component } from 'react';
 import {render} from 'react-dom';
+import ReactFireMixin from 'reactfire';
+import reactMixin from 'react-mixin';
+import moment from 'moment';
 
 class Hello extends Component {
 
+    formattedDate(element) {
+        var eventDateStr = element.date;
+        var eventDate = moment(eventDateStr).format('DD/MM/YYYY HH:mm');
+        return eventDate.toString();
+    }
+
+    componentWillMount() {
+
+        var ref = firebase.database().ref('/');
+        this.bindAsArray(ref, 'items');
+    }
+
     render() {
+        var self = this;
         return (
-            <div>Hey!</div>
+            <ul> {
+                this.state.items.map(function (element) {
+                    return (
+                        <li key={element.date}>{self.formattedDate(element)} : {element.title}</li>
+                    );
+                })
+            }
+            </ul>
         );
     }
 }
+
+reactMixin(Hello.prototype, ReactFireMixin);
 
 class App extends Component {
 
