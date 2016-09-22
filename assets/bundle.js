@@ -11048,7 +11048,7 @@ var Hello = function (_Component) {
             return _react2.default.createElement(
                 'div',
                 null,
-                'Hey!!'
+                'Hello!'
             );
         }
     }]);
