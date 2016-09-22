@@ -13,7 +13,15 @@ firebase.initializeApp(config);
 
 import React, { Component } from 'react';
 import {render} from 'react-dom';
-import Hello from './components/Hello';
+
+class Hello extends Component {
+
+    render() {
+        return (
+            <div>Hey!</div>
+        );
+    }
+}
 
 class App extends Component {
 
