@@ -24,7 +24,7 @@ kramdown:
   syntax_highlighter_opts:
     disable: true
 include: ['_pages']
-exclude: [vendor]
+exclude: [vendor, 'webpack']
 gems:
   - jekyll-mentions
   - jekyll-feed
