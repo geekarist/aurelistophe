@@ -9,4 +9,4 @@ excerpt:   Le déroulement des festivités, heure par heure, minute par minute
 published: true
 ---
 
-<div id="root" />
+<section id="wed-app" />

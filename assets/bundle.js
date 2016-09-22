@@ -21649,18 +21649,23 @@ var config = {
 };
 firebase.initializeApp(config);
 
-var Hello = function (_Component) {
-    _inherits(Hello, _Component);
+var WeddingDaySchedule = function (_Component) {
+    _inherits(WeddingDaySchedule, _Component);
 
-    function Hello() {
-        _classCallCheck(this, Hello);
+    function WeddingDaySchedule() {
+        _classCallCheck(this, WeddingDaySchedule);
 
-        return _possibleConstructorReturn(this, (Hello.__proto__ || Object.getPrototypeOf(Hello)).apply(this, arguments));
+        return _possibleConstructorReturn(this, (WeddingDaySchedule.__proto__ || Object.getPrototypeOf(WeddingDaySchedule)).apply(this, arguments));
     }
 
-    _createClass(Hello, [{
-        key: "formattedDate",
-        value: function formattedDate(element) {
+    _createClass(WeddingDaySchedule, [{
+        key: "formattedDay",
+        value: function formattedDay(dayStr) {
+            return dayStr;
+        }
+    }, {
+        key: "formattedTime",
+        value: function formattedTime(element) {
             var eventDateStr = element.date;
             var eventDate = (0, _moment2.default)(eventDateStr).format('DD/MM/YYYY HH:mm');
             return eventDate.toString();
@@ -21669,34 +21674,51 @@ var Hello = function (_Component) {
         key: "componentWillMount",
         value: function componentWillMount() {
 
-            var ref = firebase.database().ref('/');
+            var day = this.props.day;
+
+            console.log(day);
+
+            var ref = firebase.database().ref('/').orderByChild('date').startAt(day + 'T00:00:00+02.00').endAt(day + 'T23:59:59+02.00');
             this.bindAsArray(ref, 'items');
         }
     }, {
         key: "render",
         value: function render() {
+
             var self = this;
+
             return _react2.default.createElement(
-                "ul",
+                "div",
                 null,
-                " ",
+                _react2.default.createElement(
+                    "h2",
+                    null,
+                    self.formattedDay(this.props.day)
+                ),
                 this.state.items.map(function (element) {
                     return _react2.default.createElement(
-                        "li",
+                        "div",
                         { key: element.date },
-                        self.formattedDate(element),
-                        " : ",
-                        element.title
+                        _react2.default.createElement(
+                            "h3",
+                            null,
+                            element.title
+                        ),
+                        _react2.default.createElement(
+                            "p",
+                            null,
+                            self.formattedTime(element)
+                        )
                     );
                 })
             );
         }
     }]);
 
-    return Hello;
+    return WeddingDaySchedule;
 }(_react.Component);
 
-(0, _reactMixin2.default)(Hello.prototype, _reactfire2.default);
+(0, _reactMixin2.default)(WeddingDaySchedule.prototype, _reactfire2.default);
 
 var App = function (_Component2) {
     _inherits(App, _Component2);
@@ -21710,14 +21732,19 @@ var App = function (_Component2) {
     _createClass(App, [{
         key: "render",
         value: function render() {
-            return _react2.default.createElement(Hello, null);
+            return _react2.default.createElement(
+                "div",
+                null,
+                _react2.default.createElement(WeddingDaySchedule, { day: "2017-04-29" }),
+                _react2.default.createElement(WeddingDaySchedule, { day: "2017-04-30" })
+            );
         }
     }]);
 
     return App;
 }(_react.Component);
 
-(0, _reactDom.render)(_react2.default.createElement(App, null), document.getElementById('root'));
+(0, _reactDom.render)(_react2.default.createElement(App, null), document.getElementById('wed-app'));
 
 /***/ },
 /* 173 */

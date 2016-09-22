@@ -17,9 +17,13 @@ import ReactFireMixin from 'reactfire';
 import reactMixin from 'react-mixin';
 import moment from 'moment';
 
-class Hello extends Component {
+class WeddingDaySchedule extends Component {
 
-    formattedDate(element) {
+    formattedDay(dayStr) {
+        return dayStr;
+    }
+
+    formattedTime(element) {
         var eventDateStr = element.date;
         var eventDate = moment(eventDateStr).format('DD/MM/YYYY HH:mm');
         return eventDate.toString();
@@ -27,34 +31,54 @@ class Hello extends Component {
 
     componentWillMount() {
 
-        var ref = firebase.database().ref('/');
+        var day = this.props.day;
+
+        console.log(day);
+
+        var ref = firebase.database().ref('/')
+            .orderByChild('date')
+            .startAt(day + 'T00:00:00+02.00')
+            .endAt(day + 'T23:59:59+02.00');
         this.bindAsArray(ref, 'items');
     }
 
     render() {
+
         var self = this;
+
         return (
-            <ul> {
-                this.state.items.map(function (element) {
-                    return (
-                        <li key={element.date}>{self.formattedDate(element)} : {element.title}</li>
-                    );
-                })
-            }
-            </ul>
+            <div>
+
+                <h2>{self.formattedDay(this.props.day)}</h2>
+
+                {
+                    this.state.items.map(function (element) {
+                        return (
+                            <div key={element.date}>
+                                <h3>{element.title}</h3>
+
+                                <p>{self.formattedTime(element)}</p>
+                            </div>
+                        );
+                    })
+                }
+            </div>
         );
     }
 }
 
-reactMixin(Hello.prototype, ReactFireMixin);
+reactMixin(WeddingDaySchedule.prototype, ReactFireMixin);
 
 class App extends Component {
 
     render() {
         return (
-            <Hello />
+            <div>
+                <WeddingDaySchedule day="2017-04-29" />
+                <WeddingDaySchedule day="2017-04-30" />
+            </div>
         )
     }
 }
 
-render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('wed-app'));
