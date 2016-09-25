@@ -6,6 +6,7 @@ weight:    30
 menutitle: Liste
 title:     Liste de mariage
 excerpt:   Ce qui nous ferait plaisir
+cover: /media/img/custom/nz/landscape.jpg
 published: true
 ---
 
@@ -19,12 +20,12 @@ Pour les curieux, voici ce qu'on trouve dans notre destination de rêve :
 
 <div class="album">
 
-<img src="/assets/sheeps.jpg">
-<img src="/assets/landscape.jpg">
-<img src="/assets/haka.jpg">
-<img src="/assets/sea.jpg">
-<img src="/assets/carving.jpg">
-<img src="/assets/kiwi.jpg">
-<img src="/assets/pools.jpg">
+<img src="/media/img/custom/nz/sheeps.jpg">
+<img src="/media/img/custom/nz/landscape.jpg">
+<img src="/media/img/custom/nz/haka.jpg">
+<img src="/media/img/custom/nz/sea.jpg">
+<img src="/media/img/custom/nz/carving.jpg">
+<img src="/media/img/custom/nz/kiwi.jpg">
+<img src="/media/img/custom/nz/pools.jpg">
 
 </div>
