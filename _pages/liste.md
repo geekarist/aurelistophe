@@ -6,7 +6,7 @@ weight:    30
 menutitle: Liste
 title:     Liste de mariage
 excerpt:   Ce qui nous ferait plaisir
-cover: /media/img/custom/nz/landscape.jpg
+cover: /assets/covers/landscape.jpg
 published: true
 ---
 

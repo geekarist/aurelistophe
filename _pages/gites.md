@@ -6,7 +6,7 @@ weight:    10
 menutitle: Gîtes
 title:     Gîtes et hôtels à proximité
 excerpt:   Une liste des gîtes et des hôtels près des lieux du mariage
-cover: /media/img/custom/croatie/DSC_0171.JPG
+cover: /assets/covers/city.jpg
 published: true
 ---
 
