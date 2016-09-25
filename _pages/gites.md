@@ -12,9 +12,9 @@ published: true
 
 Comme vous serez beaucoup à venir de loin, voici quelques hôtels, gîtes ou chambres d'hôtes dans la région. Ce n'est qu'une sélection, vous pouvez en trouver d'autres.
 
-**Le dîner se déroulera à Oudun**, à côté de Joux la Ville. Vous pouvez donc cibler les villes de l'Isle sur Serein, Vermenton et Noyers qui sont à moins de 15 min. de la salle en voiture.
+**Le dîner se déroulera à Oudun (89440)**, sur la commune de Joux la Ville. Vous pouvez aussi cibler les villes de l'Isle sur Serein, Vermenton et Noyers qui sont à moins de 15 min. de la salle en voiture.
 
-Pour ceux qui préfèrent être proches du lieu de cérémonie civile, **la mairie se trouve à Rouvray**.
+Pour ceux qui préfèrent être proches du lieu de cérémonie civile, **la mairie se trouve à Rouvray (21530)**.
 
 Avallon est un bon compromis, c'est à mi chemin entre la salle (15 min.) et la mairie (15 min.).
 
