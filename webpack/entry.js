@@ -16,16 +16,19 @@ import {render} from 'react-dom';
 import ReactFireMixin from 'reactfire';
 import reactMixin from 'react-mixin';
 import moment from 'moment';
+import 'moment/locale/fr';
+
+moment.locale('fr');
 
 class WeddingDaySchedule extends Component {
 
     formattedDay(dayStr) {
-        return dayStr;
+        return moment(dayStr).format('dddd Do MMMM YYYY');
     }
 
     formattedTime(element) {
         var eventDateStr = element.date;
-        var eventDate = moment(eventDateStr).format('DD/MM/YYYY HH:mm');
+        var eventDate = moment(eventDateStr).format('HH:mm');
         return eventDate.toString();
     }
 
@@ -47,17 +50,29 @@ class WeddingDaySchedule extends Component {
         var self = this;
 
         return (
-            <div>
+            <div style={{padding: '1em', textAlign: 'center'}}>
 
-                <h2>{self.formattedDay(this.props.day)}</h2>
+                <h2 style={{textTransform: 'capitalize'}}>{self.formattedDay(this.props.day)}</h2>
 
                 {
-                    this.state.items.map(function (element) {
+                    this.state.items.map(function (element, num) {
+                        // return <WeddingDayEvent date={element.date} title={element.title} url={element.url} />
                         return (
-                            <div key={element.date}>
-                                <h3>{element.title}</h3>
+                            <div key={element.date}
+                                style={{
+                                    border: '1px solid gray',
+                                    color: 'white',
+                                    marginBottom: '.4em',
+                                    padding: '0',
+                                    background: 'url(http://lorempixel.com/1280/960/food/' + num + ')',
+                                    backgroundPosition: 'center center',
+                                    backgroundRepeat: 'no-repeat',
+                                }}>
 
-                                <p>{self.formattedTime(element)}</p>
+                                <div style={{textShadow: '0px 0px .1em black', textAlign: 'center', background: 'rgba(0,0,0,.5)'}}>
+                                    <div>{element.title}</div>
+                                    <div>{self.formattedTime(element)}</div>
+                                </div>
                             </div>
                         );
                     })
