@@ -12,7 +12,7 @@ published: true
 
 ## Mise à jour du 14 janvier
 
-Les premiers faire-parts sont partis, objectivement il sont très beaux mais quelque peu incorrects. L'entreprise qui nous fournissait la salle de réception met la clé sous la porte.
+Les premiers faire-parts sont partis, objectivement il sont très beaux mais quelque peu incorrects. Nous devons déplacer la réception, car l'entreprise qui nous fournissait la salle de réception met la clé sous la porte.
 
 C'est donc dans un autre lieu que nous fêterons cet événement. Finalement, **la réception aura lieu au Domaine de la Chaux, à Alligny-en-Morvan (58230)**. Plus d'informations sur ce site : [gites-lachaux.fr](http://www.gites-lachaux.fr/).
 
@@ -28,37 +28,41 @@ Comme vous serez beaucoup à venir de loin, voici quelques hôtels, gîtes ou ch
     - Les Prés, 58230 Alligny en Morvan
     - Tél : 03 86 76 15 54
     - Fax : 03 86 76 14 61
-    - [contact@ungiteenmorvan.com](mailto:contact@ungiteenmorvan.com)
+    - Site web : [ungiteenmorvan.com](http://ungiteenmorvan.com)
+    - Email : [contact@ungiteenmorvan.com](mailto:contact@ungiteenmorvan.com)
     - 2 gîtes de 9 personnes
     - 3 chambres d’hôtes
 
 - Gîte d’étape "Les Bruyères"
     - 03 86 76 13 50
-    - [alligny.morvan@wanadoo.fr](mailto:alligny.morvan@wanadoo.fr)
+    - Page web [sur gites-de-france.com](https://www.gites-de-france.com/location-vacances-Alligny-en-morvan-Gite-de-sejour-Les-Bruyeres-58G930.html)
+    - Email : [alligny.morvan@wanadoo.fr](mailto:alligny.morvan@wanadoo.fr)
     - 18 lits "simples" en 6 chambres
 
 - Auberge du Morvan
     - 03 86 76 13 90
-    - [aubergebranlard@wanadoo.fr](mailto:aubergebranlard@wanadoo.fr)
+    - Site web : [aubergedumorvan.fr](https://www.aubergedumorvan.fr)
+    - Email : [aubergebranlard@wanadoo.fr](mailto:aubergebranlard@wanadoo.fr)
     - 7 chambres : 20 personnes
 
 ### Moux en Morvan
 
 - Hôtel  "Le beau site"
     - 03 86 76 11 75
-    - [beausite.moux@orange.fr](mailto:beausite.moux@orange.fr)
+    - Site web : [oxawebshop-hd4.fr/beausite](http://www.oxawebshop-hd4.fr/beausite/)
+    - Email : [beausite.moux@orange.fr](mailto:beausite.moux@orange.fr)
     - 19 chambres
 
 ### Saulieu
 
 - Hostellerie de la Tour d’Auxois
     - 03 80 64 36 19
-    - [info@tourdauxois.com](mailto:info@tourdauxois.com)
-    - http://www.tourdauxois.com/
+    - Site web : [tourdauxois.com](http://www.tourdauxois.com/)
+    - Email : [info@tourdauxois.com](mailto:info@tourdauxois.com)
     - 23 chambres
 
 - La Borne Impériale
     - 03 80 64 19 76
-    - [jean.berteau0512@orange.fr](mailto:jean.berteau0512@orange.fr)
-    - http://www.borne-imperiale.com/
+    - Site web : [borne-imperiale.com](http://www.borne-imperiale.com/)
+    - Email : [jean.berteau0512@orange.fr](mailto:jean.berteau0512@orange.fr)
     - 7 chambres
