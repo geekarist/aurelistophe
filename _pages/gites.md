@@ -12,7 +12,7 @@ published: true
 
 ## Mise à jour du 14 janvier
 
-Les premiers faire-parts sont partis, objectivement il sont très beaux mais quelque peu incorrects. L'entreprise qui nous fournissait la salle de réception met la clé sous la porte. Désolé.
+Les premiers faire-parts sont partis, objectivement il sont très beaux mais quelque peu incorrects. L'entreprise qui nous fournissait la salle de réception met la clé sous la porte.
 
 C'est donc dans un autre lieu que nous fêterons cet événement. Finalement, **la réception aura lieu au Domaine de la Chaux, à Alligny-en-Morvan (58230)**. Plus d'informations sur ce site : [gites-lachaux.fr](http://www.gites-lachaux.fr/).
 
