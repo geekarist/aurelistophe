@@ -10,35 +10,55 @@ cover: /assets/covers/city.jpg
 published: true
 ---
 
+## Mise à jour du 14 janvier
+
+Les premiers faire-parts sont partis, objectivement il sont très beaux mais quelque peu incorrects. L'entreprise qui nous fournissait la salle de réception met la clé sous la porte. Désolé.
+
+C'est donc dans un autre lieu que nous fêterons cet événement. Finalement, **la réception aura lieu au Domaine de la Chaux, à Alligny-en-Morvan (58230)**. Plus d'informations sur ce site : [gites-lachaux.fr](http://www.gites-lachaux.fr/).
+
+Rappel : **La cérémonie aura lieu à la mairie de Rouvray, Côte d'Or (21530)**. C'est environ à 30 minutes du lieu de réception.
+
+## Les adresses
+
 Comme vous serez beaucoup à venir de loin, voici quelques hôtels, gîtes ou chambres d'hôtes dans la région. Ce n'est qu'une sélection, vous pouvez en trouver d'autres.
 
-**Le dîner se déroulera à Oudun (89440)**, sur la commune de Joux la Ville. Vous pouvez aussi cibler les villes de l'Isle sur Serein, Vermenton et Noyers qui sont à moins de 15 min. de la salle en voiture.
+### Alligny en Morvan
 
-Pour ceux qui préfèrent être proches du lieu de cérémonie civile, **la mairie se trouve à Rouvray (21530)**.
+- La Ferme des Prés
+    - Les Prés, 58230 Alligny en Morvan
+    - Tél : 03 86 76 15 54
+    - Fax : 03 86 76 14 61
+    - [contact@ungiteenmorvan.com](mailto:contact@ungiteenmorvan.com)
+    - 2 gîtes de 9 personnes
+    - 3 chambres d’hôtes
 
-Avallon est un bon compromis, c'est à mi chemin entre la salle (15 min.) et la mairie (15 min.).
+- Gîte d’étape "Les Bruyères"
+    - 03 86 76 13 50
+    - [alligny.morvan@wanadoo.fr](mailto:alligny.morvan@wanadoo.fr)
+    - 18 lits "simples" en 6 chambres
 
-*Attention* : il existe deux Rouvray en Bourgogne, le nôtre est en Côte d'Or, code postal 21530.
+- Auberge du Morvan
+    - 03 86 76 13 90
+    - [aubergebranlard@wanadoo.fr](mailto:aubergebranlard@wanadoo.fr)
+    - 7 chambres : 20 personnes
 
-## Près d'Oudun (salle de réception)
+### Moux en Morvan
 
-- Gîtes
-    - [Chez Sylvestre et Corinne](https://www.gites-de-france.com/location-vacances-Joux-la-ville-Chambre-d-hotes-89G2188.html) à Joux la Ville
-    - [Le Clos du Merry](http://www.leclosdumerry.fr/) à Joux la Ville
-    - [Le Gîte de Coutarnoux](http://gitedecoutarnoux.com/gite-joux-la-ville/) à Joux la Ville
-    - [La Petite Etape aux Vins](http://www.location-noyers-sur-serein.fr/fran%C3%A7ais/accueil/) à Noyers
+- Hôtel  "Le beau site"
+    - 03 86 76 11 75
+    - [beausite.moux@orange.fr](mailto:beausite.moux@orange.fr)
+    - 19 chambres
 
-- Hôtels
-    - [Le Moulin des Templiers](http://hotel-moulin-des-templiers.com/) à Pontaubert
-    - [Les Epis d'Or](http://les-epis-dor.com/index.html) à L'Isle sur Serein
-    - [Le Gratin Mondain](https://www.gites-de-france.com/location-vacances-Noyers-Chambre-d-hotes-Le-Gratin-Mondain-89G2221.html) à Noyers
-    - [Hôtel d'Avallon Vauban](http://www.citotel-avallon.fr/) à Avallon
+### Saulieu
 
-## Près de Rouvray (mairie)
+- Hostellerie de la Tour d’Auxois
+    - 03 80 64 36 19
+    - [info@tourdauxois.com](mailto:info@tourdauxois.com)
+    - http://www.tourdauxois.com/
+    - 23 chambres
 
-- Gîtes
-    - [La Grange](https://www.gites-de-france.com/location-vacances-Sincey-les-rouvray-Gite-La-Grange-21G308.html) à Sincey les Rouvray
-    - [La Glycine](http://www.gites-de-france-bourgogne.com/location-Gite-Sincey-les-rouvray-Cote-D-or-21G627.html) à Sincey les Rouvray
-- Hôtels
-    - [Auberge de la Feuillouse](https://www.tripadvisor.fr/Hotel_Review-g1807497-d1760368-Reviews-Auberge_de_la_Feuillouse-Rouvray_Cote_d_Or_Burgundy.html) à Rouvray
-    - [Chez Bernard R.](https://www.tripadvisor.fr/VacationRentalReview-g1807497-d6508663-MAISON_DE_CARACTERE_EN_MORVAN-Rouvray_Cote_d_Or_Burgundy.html) à Rouvray
+- La Borne Impériale
+    - 03 80 64 19 76
+    - [jean.berteau0512@orange.fr](mailto:jean.berteau0512@orange.fr)
+    - http://www.borne-imperiale.com/
+    - 7 chambres
