@@ -10,13 +10,13 @@ cover: /assets/covers/city.jpg
 published: true
 ---
 
-## Mise à jour du 14 janvier
+## Mise à jour du 26 février
 
-Les premiers faire-parts sont partis, objectivement il sont très beaux mais quelque peu incorrects. Nous devons déplacer la réception, car l'entreprise qui nous fournissait la salle de réception met la clé sous la porte.
+La cérémonie civile aura lieu à la mairie de Saint-Léger-Vauban, Yonne (89630). C'est environ à 30 minutes du lieu de réception.
 
-C'est donc dans un autre lieu que nous fêterons cet événement. Finalement, **la réception aura lieu au Domaine de la Chaux, à Alligny-en-Morvan (58230)**. Plus d'informations sur ce site : [gites-lachaux.fr](http://www.gites-lachaux.fr/).
+La cérémonie laïque et la réception auront lieu au Domaine de la Chaux, à Alligny-en-Morvan (58230).
 
-Rappel : **La cérémonie aura lieu à la mairie de Rouvray, Côte d'Or (21530)**. C'est environ à 30 minutes du lieu de réception.
+Pour plus d'informations sur le déroulement des événements, cliquez sur ce lien : [Programme](/programme/).
 
 ## Les adresses
 

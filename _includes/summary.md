@@ -1,6 +1,6 @@
 ## Le 29 avril 2017, c'est notre mariage !
 
-La cérémonie se déroulera à la mairie de Rouvray, Côte d'Or (21530).
+La cérémonie se déroulera à la mairie de Saint-Léger-Vauban (89630).
 
 La réception aura lieu au Domaine de la Chaux, à Alligny-en-Morvan (58230).
 
