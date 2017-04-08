@@ -10,8 +10,6 @@ cover: /assets/covers/city.jpg
 published: true
 ---
 
-## Mise à jour du 26 février
-
 La cérémonie civile aura lieu à la mairie de Saint-Léger-Vauban, Yonne (89630). C'est environ à 30 minutes du lieu de réception.
 
 La cérémonie laïque et la réception auront lieu au Domaine de la Chaux, à Alligny-en-Morvan (58230).
