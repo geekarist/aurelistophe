@@ -7,7 +7,7 @@ menutitle: Programme
 title:     Programme
 excerpt:   Le déroulement des événements
 cover: /assets/covers/chaux.jpg
-published: true
+published: false
 ---
 
 ## 14:00 - Cérémonie civile

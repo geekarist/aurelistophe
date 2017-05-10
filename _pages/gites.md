@@ -7,7 +7,7 @@ menutitle: Gîtes
 title:     Gîtes et hôtels à proximité
 excerpt:   Une liste des gîtes et des hôtels près des lieux du mariage
 cover: /assets/covers/city.jpg
-published: true
+published: false
 ---
 
 La cérémonie civile aura lieu à la mairie de Saint-Léger-Vauban, Yonne (89630). C'est environ à 30 minutes du lieu de réception.

@@ -7,7 +7,7 @@ menutitle: Liste
 title:     Liste de mariage
 excerpt:   Ce qui nous ferait plaisir
 cover: /assets/covers/landscape.jpg
-published: true
+published: false
 ---
 
 Pas de panique, pas besoin de courir les boutiques pour nous trouver la ménagère 48 pièces, la soupière en porcelaine ou la machine à pain sans gluten.
