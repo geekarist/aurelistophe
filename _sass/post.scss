@@ -11,7 +11,7 @@
 }
 
 .single-post {
-    .post-content img, .post-title , .post-meta{
+    .post-content img:not(.emoji), .post-title, .post-meta {
         max-width: 700px;
         width: 100%;
         margin: auto;
@@ -202,7 +202,7 @@
         width: 100%;
         margin-bottom: auto;
     }
-	
+
 	.tip {
         padding: 12px 24px 12px 30px;
         margin: 2em 0;

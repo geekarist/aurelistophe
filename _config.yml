@@ -26,6 +26,7 @@ kramdown:
 include: ['_pages']
 exclude: [vendor, 'webpack']
 gems:
+  - jemoji
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
